@@ -16,7 +16,7 @@ const Card = props => {
 };
 
 // Make sure to include PropTypes.
-Card.PropTypes = {
+Card.propTypes = {
   data: PropTypes.shape({
     headline: PropTypes.string,
     tab: PropTypes.string,
